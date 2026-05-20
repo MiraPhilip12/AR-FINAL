@@ -1,6 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using System.Collections.Generic;  // ← THIS LINE WAS MISSING!
 
 public class ARSpawner : MonoBehaviour
 {
@@ -53,7 +54,11 @@ public class ARSpawner : MonoBehaviour
         if (vehiclePrefabs.Length > 0)
         {
             currentVehicle = Instantiate(vehiclePrefabs[0], position, rotation);
-            FindObjectOfType<UIController>()?.OnVehicleSpawned(currentVehicle);
+
+            // Find and notify UIController
+            UIController uiController = FindObjectOfType<UIController>();
+            if (uiController != null)
+                uiController.OnVehicleSpawned(currentVehicle);
         }
     }
 
