@@ -123,6 +123,14 @@ public class UIController : MonoBehaviour
         }
     }
 
+    public void LoadMainMenu()
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayButtonClick();
+
+        SceneManager.LoadScene("MainMenu");
+    }
+
     void OnRotationButtonPressed()
     {
         if (AudioManager.Instance != null)
