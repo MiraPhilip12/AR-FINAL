@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 168221082}
   - component: {fileID: 168221081}
   - component: {fileID: 168221080}
+  - component: {fileID: 168221083}
   m_Layer: 5
   m_Name: Btn_ChangeColor
   m_TagString: Untagged
@@ -536,6 +537,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168221078}
   m_CullTransparentMesh: 1
+--- !u!114 &168221083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168221078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Change vehicle body color
+  delay: 0.5
 --- !u!1 &336444687
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,6 +563,7 @@ GameObject:
   - component: {fileID: 336444691}
   - component: {fileID: 336444690}
   - component: {fileID: 336444689}
+  - component: {fileID: 336444692}
   m_Layer: 5
   m_Name: Btn_MarkerBased
   m_TagString: Untagged
@@ -657,6 +673,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336444687}
   m_CullTransparentMesh: 1
+--- !u!114 &336444692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336444687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Point camera at printed marker to spawn vehicle
+  delay: 0.5
 --- !u!1 &350595320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1345,7 @@ GameObject:
   - component: {fileID: 1370547915}
   - component: {fileID: 1370547914}
   - component: {fileID: 1370547913}
+  - component: {fileID: 1370547916}
   m_Layer: 5
   m_Name: Btn_EngineToggle
   m_TagString: Untagged
@@ -1424,6 +1455,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370547911}
   m_CullTransparentMesh: 1
+--- !u!114 &1370547916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370547911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Start/Stop engine with realistic sounds
+  delay: 0.5
 --- !u!1 &1392124188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,6 +1618,7 @@ GameObject:
   - component: {fileID: 1401691870}
   - component: {fileID: 1401691869}
   - component: {fileID: 1401691868}
+  - component: {fileID: 1401691871}
   m_Layer: 5
   m_Name: Btn_RotationToggle
   m_TagString: Untagged
@@ -1682,6 +1728,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401691866}
   m_CullTransparentMesh: 1
+--- !u!114 &1401691871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401691866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Toggle auto-rotation of vehicle
+  delay: 0.5
 --- !u!1 &1481613795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,6 +1970,7 @@ GameObject:
   - component: {fileID: 1622704867}
   - component: {fileID: 1622704866}
   - component: {fileID: 1622704865}
+  - component: {fileID: 1622704868}
   m_Layer: 5
   m_Name: Btn_Markerless
   m_TagString: Untagged
@@ -2019,6 +2080,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622704863}
   m_CullTransparentMesh: 1
+--- !u!114 &1622704868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622704863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Tap on detected floor to place vehicle
+  delay: 0.5
 --- !u!1 &1639157591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2106,7 @@ GameObject:
   - component: {fileID: 1639157595}
   - component: {fileID: 1639157594}
   - component: {fileID: 1639157593}
+  - component: {fileID: 1639157596}
   m_Layer: 5
   m_Name: Btn_ChangeWheel
   m_TagString: Untagged
@@ -2140,6 +2216,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639157591}
   m_CullTransparentMesh: 1
+--- !u!114 &1639157596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639157591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4173d30bc16f548914f44f46a7ba47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipTrigger
+  tooltipText: Change wheel style
+  delay: 0.5
 --- !u!1 &1664904147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,6 +2504,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683858429}
   m_CullTransparentMesh: 1
+--- !u!1 &1877898471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1877898473}
+  - component: {fileID: 1877898472}
+  m_Layer: 0
+  m_Name: TooltipSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1877898472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877898471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa625a7e5ff534fbc524bb0530cea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TooltipManager
+  tooltipPrefab: {fileID: 4235080105768619268, guid: d267db54ce90feb46ae25caf26b42f2e, type: 3}
+--- !u!4 &1877898473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877898471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 450.86096, y: 190.27057, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907248361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,3 +2832,4 @@ SceneRoots:
   - {fileID: 56381619}
   - {fileID: 1481613798}
   - {fileID: 145856222}
+  - {fileID: 1877898473}
